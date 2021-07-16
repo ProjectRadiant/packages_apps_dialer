@@ -900,20 +900,13 @@ public class InCallActivity extends TransactionSafeFragmentActivity
     @ColorInt int gray = 0x66000000;
 
     if (isInMultiWindowMode()) {
-      top = themeColorManager.getBackgroundColorSolid();
-      middle = themeColorManager.getBackgroundColorSolid();
-      bottom = themeColorManager.getBackgroundColorSolid();
+      top = getResources().getColor(R.color.dndndn);
+      middle = getResources().getColor(R.color.dndndn);
+      bottom = getResources().getColor(R.color.dndndn);
     } else {
-      top = themeColorManager.getBackgroundColorTop();
-      middle = themeColorManager.getBackgroundColorMiddle();
-      bottom = themeColorManager.getBackgroundColorBottom();
-    }
-
-    if (progress < 0) {
-      float correctedProgress = Math.abs(progress);
-      top = ColorUtils.blendARGB(top, gray, correctedProgress);
-      middle = ColorUtils.blendARGB(middle, gray, correctedProgress);
-      bottom = ColorUtils.blendARGB(bottom, gray, correctedProgress);
+      top = getResources().getColor(R.color.dndndn);
+      middle = getResources().getColor(R.color.dndndn);
+      bottom = getResources().getColor(R.color.dndndn);
     }
 
     boolean backgroundDirty = false;

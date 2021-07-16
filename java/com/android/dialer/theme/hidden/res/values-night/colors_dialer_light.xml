@@ -15,5 +15,5 @@
   -->
 <resources>
   <!-- Essential theme colors -->
-  <color name="dialer_theme_color_dark">#000000</color>
+  <color name="dialer_theme_color_dark">@color/dndndn</color>
 </resources>
