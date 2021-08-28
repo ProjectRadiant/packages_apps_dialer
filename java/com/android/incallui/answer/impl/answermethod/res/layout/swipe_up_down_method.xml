@@ -63,6 +63,7 @@
         android:gravity="center_horizontal"
         android:text="@string/call_incoming_swipe_to_answer"
         android:textAlignment="center"
+        android:textColor="@color/dndn"
         android:textAppearance="@style/Dialer.Incall.TextAppearance.Hint"/>
 
     <FrameLayout
@@ -114,6 +115,7 @@
         android:focusable="false"
         android:gravity="center_horizontal"
         android:text="@string/call_incoming_swipe_to_reject"
+        android:textColor="@color/dndn"
         android:textAppearance="@style/Dialer.Incall.TextAppearance.Hint"
         tools:alpha="1"/>
   </LinearLayout>

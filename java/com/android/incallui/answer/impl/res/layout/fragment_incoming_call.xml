@@ -108,6 +108,7 @@
           android:textSize="@dimen/answer_contact_name_text_size"
           app:autoResizeText_minTextSize="@dimen/answer_contact_name_min_size"
           tools:ignore="Deprecated"
+          android:textColor="@color/dndn"
           tools:text="Jake Peralta"/>
 
       <include
@@ -176,6 +177,7 @@
       android:layout_width="56dp"
       android:layout_height="56dp"
       android:layout_gravity="bottom|start"
+      android:tint="@color/dndn"
       android:scaleType="center"
       android:src="@drawable/quantum_ic_message_white_24"
       android:visibility="invisible"
@@ -187,6 +189,7 @@
       android:layout_height="56dp"
       android:layout_gravity="bottom|end"
       android:scaleType="center"
+      android:tint="@color/dndn"
       android:src="@drawable/ic_end_answer_32"
       android:visibility="invisible"
       tools:visibility="visible"/>
